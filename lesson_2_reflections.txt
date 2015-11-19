@@ -4,3 +4,17 @@ Git adds a hidden directory called .git. Git needs somewhere to store its meta d
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is a temporary list of files. It allows changes to be made easily.
 
+How can you use the staging area to make sure you have one commit per logical change?
+By using git diff to see what changes have been made between the working directory and the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to try a test, or produce a version for a different market/machine etc.
+
+How do the diagrams help you visualize the branch structure?
+You can see where the branches occurred, and how they interrelate.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Changes from both branches are combined. To show that the commits were carried out in parallel.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros takes away the need to do a lot of the easy changes Cons doesn't do some that should be easy.
